@@ -1,0 +1,19 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.item {
+    width: 120px;
+    justify-content: center;
+}
+
+p {
+   
+    text-align: center;
+}
+
+.p {
+    font-weight: 500;
+}

@@ -17,7 +17,6 @@ export const Navigation = () => {
             </li>
           </ul>
         </nav>
-        <hr style={{ width: "100%" }} />
       </header>
       <main>
         <Suspense fallback={<Loader />}>

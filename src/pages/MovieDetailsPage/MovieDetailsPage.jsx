@@ -79,7 +79,6 @@ const MovieDetailsPage = () => {
           </div>
         </div>
       )}
-      <hr style={{ width: "100%" }} />
       <p>Additional information</p>
       <ul>
         <li>
@@ -93,7 +92,6 @@ const MovieDetailsPage = () => {
           </NavLink>
         </li>
       </ul>
-      <hr style={{ width: "100%" }} />
       <Suspense fallback={<div>LOADING SUB COMPONENT...</div>}>
         <Outlet />
       </Suspense>
